@@ -12,7 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  pass_flutter: ^2.0.1
+  pass_flutter:
+    git:
+      url: https://github.com/Dredayduncan/pass-flutter.git
+      ref: master # branch name
 
 dev_dependencies:
   flutter_test:
